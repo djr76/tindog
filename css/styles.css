@@ -28,7 +28,7 @@ p {
 /* Title Section *******************/
 .title-s {
   color: #fff;
-background-color: #eb7070;
+background-color: #33EFA5;
 }
 
 .container-fluid {
@@ -87,25 +87,25 @@ background-color: #eb7070;
 /* Optional to combine all three classes into a single .icon class but for training purposes I kept it this way */
 .heart, .bullseye, .checkMark {
   margin-bottom: 1rem;
-  color: #ef8172;
+  color: #33EFA5;
 }
 
 .heart:hover {
-  color: red;
+  color: green;
 }
 
 .bullseye:hover {
-  color: red;
+  color: green;
 }
 
 .checkMark:hover {
-  color: red;
+  color: green;
 }
 
 /* Testimonial Section *******************/
 .testimonials-s {
   text-align: center;
-  background-color: #eb7070;
+  background-color: #33EFA5;
   color: #fff;
   /* margin-top: 505px; */
 }
@@ -123,7 +123,7 @@ background-color: #eb7070;
 /* Press Section *******************/
 
 .press-s {
-  background-color: #eb7070;
+  background-color: #33EFA5;
   text-align: center;
   padding-bottom: 3%;
 }
@@ -154,10 +154,14 @@ background-color: #eb7070;
   }
 }
 
+.card-header{
+  background-color: #E3F7EF;
+}
+
 /* CTA Section *******************/
 
 .cta-s {
-  background-color: #eb7070;
+  background-color: #33EFA5;
   color: #fff;
 }
 
