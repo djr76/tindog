@@ -57,6 +57,11 @@ background-color: #33EFA5;
 }
 
 /* Download buttons */
+
+.top-button {
+  margin: 5% 0 10% 0;
+}
+
 .download-button {
   margin: 5% 0 5% 0;
 }
@@ -193,5 +198,5 @@ background-color: #33EFA5;
 }
 
 .bottom-container {
-  font-size: 20px;
+  font-size: 40px;
 }
