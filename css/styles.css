@@ -1,0 +1,189 @@
+
+
+body {
+  font-family: "Montserrat";
+}
+
+H1 {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+H2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+H3 {
+  font-family: "Montserrat-bold";
+}
+
+p {
+  color:#8f8f8f;
+}
+
+/* Title Section *******************/
+.title-s {
+  color: #fff;
+background-color: #eb7070;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 0 5% 0;
+}
+
+/* Title image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  /* z-index: -1; */
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section *******************/
+.features-s {
+  padding: 150px;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+}
+
+.heart:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+/* Optional to combine all three classes into a single .icon class but for training purposes I kept it this way */
+.heart, .bullseye, .checkMark {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.heart:hover {
+  color: red;
+}
+
+.bullseye:hover {
+  color: red;
+}
+
+.checkMark:hover {
+  color: red;
+}
+
+/* Testimonial Section *******************/
+.testimonials-s {
+  text-align: center;
+  background-color: #eb7070;
+  color: #fff;
+  /* margin-top: 505px; */
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section *******************/
+
+.press-s {
+  background-color: #eb7070;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section *******************/
+.pricing-s {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+
+  .title-s {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* CTA Section *******************/
+
+.cta-s {
+  background-color: #eb7070;
+  color: #fff;
+}
+
+.col-lg-12 {
+  text-align: center;
+}
+
+.cta-h3 {
+  text-align: center;
+  padding-top: 50px;
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+
+/* Footer Section *******************/
+
+.footer-s {
+  padding: 50px 0 20px;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+.copyright {
+  padding: 20 0;
+}
